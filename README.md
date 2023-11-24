@@ -17,11 +17,12 @@ Write the code to fetch and store currency conversion rates (using fixed rates f
 Implement the conversion formula based on user input.
 Ensure accurate and reliable conversion results.
 User Input Handling:
-
+Kaddyjatou Jatta- 22126028
 Responsibility: Manage user input validation and error handling.
 Tasks:
 Validate the user input for amount (numeric values) and handle non-numeric inputs.
 Validate the user's currency selections and provide appropriate error messages for invalid choices.
+
 
 Responsibility: Ensure the project is thoroughly tested and free of bugs.
 Tasks:
