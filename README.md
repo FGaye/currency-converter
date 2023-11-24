@@ -17,6 +17,7 @@ Write the code to fetch and store currency conversion rates (using fixed rates f
 Implement the conversion formula based on user input.
 Ensure accurate and reliable conversion results.
 User Input Handling:
+Mariama k Jallow 
 
 Responsibility: Manage user input validation and error handling.
 Tasks:
