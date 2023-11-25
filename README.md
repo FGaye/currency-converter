@@ -32,7 +32,7 @@ Test the application with various input scenarios to ensure robust functionality
 
 
 
-Responsibility: Create documentation for the project.
+**{Mathiue Haba}==>** Responsibility: Create documentation for the project.
 Tasks:
 Write a brief overview of the project, its functionalities, and how to use it.
 Document the code, providing comments where necessary.
