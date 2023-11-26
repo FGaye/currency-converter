@@ -25,6 +25,7 @@ Validate the user's currency selections and provide appropriate error messages f
 
 Responsibility: Ensure the project is thoroughly tested and free of bugs.
 Tasks:
+i choose  resbonsibility 5
 Conduct unit testing for individual components, including the UI, conversion logic, and user input handling.
 Identify and fix any bugs or issues.
 Test the application with various input scenarios to ensure robust functionality.
