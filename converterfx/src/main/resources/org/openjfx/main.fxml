@@ -7,7 +7,7 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
-
+<?import javafx.scene.layout.AnchorPane?>
 <?import java.lang.*?>
 <?import java.net.*?>
 <?import java.util.*?>
@@ -18,10 +18,20 @@
 <?import javafx.scene.paint.*?>
 
 
-<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.MainController">
+<VBox alignment="CENTER" spacing="10.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.MainController">
     <padding>
-       <Insets top="20" right="20" bottom="20" left="20"/>
+       <Insets top="5" right="20" bottom="20" left="20"/>
     </padding>
+    
+         <VBox spacing="10" alignment="CENTER">
+             <Label text="USD to EUR : 0.91" />
+             <Label text="USD to GBP: 0.79" />
+             <Label text="USD to DALASI: 67.30" />
+             <Label text="GBP to DALASI: 85.45" />
+             <Label text="EUR to DALASI: 73.87" />
+         </VBox>
+      
+
     <Label text="Currency Converter" style="-fx-font-size: 18px;"/>
     <HBox alignment="CENTER" spacing="10">
        <TextField fx:id="amountInput" promptText="Enter amount" />

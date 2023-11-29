@@ -20,9 +20,11 @@ public class MainController {
     @FXML
     private Label resultLabel;
 
-    private static final double USD_TO_EUR_RATE = 0.85;
-    private static final double USD_TO_GBP_RATE = 0.75;
-    private static final double USD_TO_DALASI_RATE = 64.00;
+    private static final double USD_TO_EUR_RATE = 0.91;
+    private static final double USD_TO_GBP_RATE = 0.79;
+    private static final double USD_TO_DALASI_RATE = 67.30;
+    private static final double GBP_TO_DALASI_RATE = 85.45;
+    private static final double EUR_TO_DALASI_RATE = 73.87;
     @FXML
     public void convert() {
         try {
@@ -71,6 +73,22 @@ public class MainController {
         }
         else if ("DALASI".equals(source) && "USD".equals(target)) {
             return amount / USD_TO_DALASI_RATE;
+        }
+        else if ("DALASI".equals(source) && "GBP".equals(target))
+        {
+            return  amount / GBP_TO_DALASI_RATE;
+        }
+        else if ("GBP".equals(source) && "DALASI".equals(target))
+        {
+            return  amount * GBP_TO_DALASI_RATE;
+        }
+        else if ("DALASI".equals(source) && "EUR".equals(target))
+        {
+            return  amount / EUR_TO_DALASI_RATE;
+        }
+        else if ("EUR".equals(source) && "DALASI".equals(target))
+        {
+            return  amount * EUR_TO_DALASI_RATE;
         }
         
         else {
